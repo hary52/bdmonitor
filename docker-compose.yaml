@@ -5,7 +5,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      DATABASE_URL: postgresql://umami:umami@db:5432/umami # 这里的数据库和密码要和下方你修改的相同
+      DATABASE_URL: postgresql://umami:umami@db2:5432/umami # 这里的数据库和密码要和下方你修改的相同
       DATABASE_TYPE: postgresql
       HASH_SALT: replace-me-with-a-random-string
     depends_on:

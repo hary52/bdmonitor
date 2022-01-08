@@ -9,7 +9,7 @@ services:
       DATABASE_TYPE: postgresql
       HASH_SALT: replace-me-with-a-random-string
     depends_on:
-      - db
+      - db2
     restart: always
   db2:
     image: postgres:12-alpine
